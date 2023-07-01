@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 // connecting to mongodb using mongoose
 const connect_database = async () =>{  // use fucntion as 'async'
     try{
-        await mongoose.connect("mongodb://localhost:27017/easyMartDB");  // using 'await' to wait if needed
+        await mongoose.connect("mongodb://127.0.0.1:27017/easyMartDB");  // using 'await' to wait if needed
         console.log('database connected');
 
     } catch (error){
