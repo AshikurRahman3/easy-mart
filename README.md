@@ -46,6 +46,7 @@ Follow these steps to set up and run the EasyMart ecommerce website:
 
 ## Bank Account Schema
 To manually insert bank account information, use MongoDB Compass and click the "Insert Document" option.
+for transaction , ecommerce site bankaccount number is taken as "111111", supplier account number is taken as "222222". for simplicy, every password should be "123"
 
 The schema for bank account data in MongoDB is as follows:
 
